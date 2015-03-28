@@ -1,6 +1,10 @@
 Changes
 =======
 
+tip (unreleased)
+----------------
+- Remove default reverse accessor to `auth.User` for historical models (final resolution to gh-121)
+
 1.5.4 (2015-01-03)
 ------------------
 - Fix a bug when models have a ``ForeignKey`` with ``primary_key=True``
